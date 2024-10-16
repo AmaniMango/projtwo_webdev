@@ -1,6 +1,6 @@
 body {
     background-color: #fdf5e6; 
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* A playful, cute font */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
     color: #6b4e2e; 
     margin: 0;
     padding: 0;
@@ -27,3 +27,33 @@ body {
     text-align: center;
     margin: 10px 20px;
   }
+
+  .navbar {
+    background-color: #d9b38c; 
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #8b5e34; 
+  }
+ 
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+  }
+ 
+  .navbar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+ 
+  .navbar a {
+    color: #fff5e6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+ 
+  .navbar a:hover {
+    color: #f8ecd1;
+  }
+
