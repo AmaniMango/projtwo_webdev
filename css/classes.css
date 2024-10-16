@@ -8,75 +8,75 @@ body {
 }
  
 h1, h2 {
-    color: #8b5e34;
-    text-align: center;
-  }
- 
-  h1 {
-    font-size: 2.5rem;
-    margin-top: 20px;
+  color: #8b5e34;
+  text-align: center;
 }
  
-  h2 {
-    font-size: 1.8rem;
-    margin-top: 20px;
+h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
 }
  
-  p {
-    font-size: 1.2rem;
-    text-align: center;
-    margin: 10px 20px;
+h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+ 
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 10px 20px;
 }
 
 .navbar {
-background-color: #d9b38c;
-padding: 10px 0;
-text-align: center;
-border-bottom: 5px solid #8b5e34; 
+  background-color: #d9b38c;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 5px solid #8b5e34; 
 }
  
-  .navbar ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none; 
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; 
   }
  
-  .navbar li {
-    display: inline-block;
-    margin-right: 20px;
-  }
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
  
-  .navbar a {
-    color: #fff5e6;
-    text-decoration: none;
-    font-weight: bold;
-  }
+.navbar a {
+  color: #fff5e6;
+  text-decoration: none;
+  font-weight: bold;
+}
  
-  .navbar a:hover {
-    color: #f8ecd1;
-  }
-  section {
-    background-color: #fffaf0;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(105, 74, 38, 1); 
-    text-align: left;
-  }
+.navbar a:hover {
+  color: #f8ecd1;
+}
+section {
+  background-color: #fffaf0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(105, 74, 38, 1); 
+  text-align: left;
+}
  
-  section ul {
-    list-style-type: circle; 
-    margin-left: 30px;
-    color: #8b5e34;
-  }
+section ul {
+  list-style-type: circle; 
+  margin-left: 30px;
+  color: #8b5e34;
+}
  
-  section ul li {
-    margin-bottom: 10px;
-    font-size: 1rem;
-  }
+section ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
  
 
-  section:hover {
-    background-color: #f8ecd1;
-  }
+section:hover {
+  background-color: #f8ecd1;
+}
 

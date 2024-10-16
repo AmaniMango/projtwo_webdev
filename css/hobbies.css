@@ -80,3 +80,21 @@ section:hover {
   background-color: #f8ecd1; 
 }
 
+img {
+  max-width: 500px;
+  display: block;
+  margin: 10px auto;
+  border: 10px solid #d9b38c;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+video {
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+    border: 10px solid #d9b38c;
+    border-radius: 25px;
+    padding: 20px;
+  }
+
