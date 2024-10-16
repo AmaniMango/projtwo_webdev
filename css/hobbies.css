@@ -32,7 +32,7 @@ body {
     background-color: #d9b38c; 
     padding: 10px 0;
     text-align: center;
-    border-bottom: 2px solid #8b5e34; 
+    border-bottom: 5px solid #8b5e34; 
   }
  
   .navbar ul {
@@ -50,10 +50,33 @@ body {
     color: #fff5e6;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
   }
  
   .navbar a:hover {
     color: #f8ecd1;
+  }
+
+  section {
+    background-color: #fffaf0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(122, 108, 59, 1); 
+    text-align: left;
+  }
+
+  section ul {
+    list-style-type: circle; 
+    margin-left: 30px;
+    color: #8b5e34;
+  }
+ 
+  section ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+ 
+  section:hover {
+    background-color: #f8ecd1; 
   }
 
