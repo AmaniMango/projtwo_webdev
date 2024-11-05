@@ -1,3 +1,33 @@
+body {
+  background-color: #fdf5e6; 
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #6b4e2e; 
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+ 
+h1, h2 {
+ color: #8b5e34; 
+ text-align: center;
+}
+ 
+h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+ 
+h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+ 
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 10px 20px;
+}
+
 .navbar {
   background-color: #d9b38c; 
   padding: 10px 0;
@@ -26,61 +56,44 @@
   color: #f8ecd1;
 }
 
-body {
-  background-color: #f5f5f0; 
-  font-family: 'Georgia', serif;
-  color: #4b3621; 
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  text-align: center;
-}
-
-h2, h3, h4 {
-  font-weight: 500;
-  color: #3b2a1a;
-}
-p {
-  font-weight: 500;
-}
-
-ul {
-  list-style-type: square;
-}
-
 section {
+  background-color: #fffaf0;
   padding: 20px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #d9b38c;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(122, 108, 59, 1); 
+  text-align: left;
 }
 
-h3 {
-  font-style: italic;
+section ul {
+  list-style-type: circle; 
+  margin-left: 30px;
+  color: #8b5e34;
+}
+ 
+section ul li {
   margin-bottom: 10px;
+  font-size: 1rem;
 }
-
-h4 {
-  font-size: 1.1rem;
-  color: #6b4e2e;
-  margin-top: 10px;
-  font-weight: bold;
+ 
+section:hover {
+  background-color: #f8ecd1; 
 }
 
 img {
   max-width: 500px;
-  border: 10px solid #d9b38c;
-  border-radius: 25px;
   display: block;
   margin: 10px auto;
+  border: 10px solid #d9b38c;
+  border-radius: 25px;
   padding: 20px;
 }
 
-
-address {
-  background-color: #8b5e34;
-  color: #f1f1dc;
-  margin-top: 20px;
-  text-align: center;
-  padding: 10px;
-  font-style: normal;
+video {
+  max-width: 500px;
+  display: block;
+  margin: 10px auto;
+  border: 10px solid #d9b38c;
+  border-radius: 25px;
+  padding: 20px;
 }
