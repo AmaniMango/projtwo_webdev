@@ -17,14 +17,14 @@ body {
 h1, h2 {
   color: #8b5e34; 
   text-align: center;
-  float: center;
+  float: inherit;
   font-family: "Corben", serif;
 }
  
 h1 {
   font-size: 2.5rem;
   margin-top: 20px;
-  float: center;
+  float: inherit;
 }
  
 h2 {
@@ -113,7 +113,7 @@ video {
 
 ul, ol{
   list-style: none;
-  float: center;
+  float: inherit;
 }
 
 footer{
