@@ -4,6 +4,7 @@ body {
   color: #6b4e2e; 
   margin: 0;
   padding: 0;
+  padding-top: 60px;
   line-height: 1.6;
 }
 
@@ -29,6 +30,9 @@ p {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: #d9b38c; 
   padding: 10px 0;
   text-align: center;
@@ -100,4 +104,8 @@ video {
 
 ul, ol{
   list-style: none;
+}
+
+footer{
+  position: relative;
 }
