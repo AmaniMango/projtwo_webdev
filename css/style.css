@@ -6,7 +6,7 @@ body {
   padding: 0;
   line-height: 1.6;
 }
- 
+
 h1, h2 {
  color: #8b5e34; 
  text-align: center;
@@ -96,4 +96,8 @@ video {
   border: 10px solid #d9b38c;
   border-radius: 25px;
   padding: 20px;
+}
+
+ul, ol{
+  list-style: none;
 }
